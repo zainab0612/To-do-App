@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ToDo App</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="mb-3">
+        <h2 class="d-inline text-white">To-Do App</h2><i class="fa-solid fa-2x fa-list m-2 text-white"></i>
+        </div>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" id="todoInput" placeholder="Add your task"></input>
+            <button class="btn btn-dark text-white border border-white" onclick="todoApp()"><i class="fa-solid fa-circle-plus text-primary shadow-lg"></i></button>
+          </div>
+          <ul class="list-group" id="todoList">
+            <!-- <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>Add your task</span>
+                <button class="btn btn-dark text-white"><i class="fa-solid fa-trash"></i></button>
+                <button class="btn btn-dark text-white"><i class="fa-solid fa-square-check"></i></button>
+            </li> -->
+            
+          </ul>
+    </div> 
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>

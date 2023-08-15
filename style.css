@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./1.jpg);
+    background-size: cover;
+}
+.container{
+    width: 500px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    border: 1px solid rgba(0,0,0,0.37);
+    margin: 150px auto;
+    padding: 40px 30px;
+    border-radius: 10px;
+    
+}
+.form-control{
+    /* background-color: rgb(103, 87, 76); */
+}
+.list-btn {
+    float: right;
+}
+span {
+    font-size: 18px;
+}
